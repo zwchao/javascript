@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Helvetica","Arial",serif;
+    background-color: #ccc;
+    color: #333;
+}
+h1{
+    color: #333;
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 50px;
+}
+#gallery{
+    list-style: none;
+}
+#gallery li{
+    display: inline;padding: 10px;
+}
+#gallery li a img{
+    border: 0;
+}
+img{
+    padding: 20px;
+}
